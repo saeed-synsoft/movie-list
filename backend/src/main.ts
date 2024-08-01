@@ -14,8 +14,8 @@ async function bootstrap() {
   app.setBaseViewsDir(join(__dirname, '..', 'views'));
 
   const config = new DocumentBuilder()
-  .setTitle('Task..')
-  .setDescription('The Task API description')
+  .setTitle('Movie Task..')
+  .setDescription('The Movie Task API')
   .setVersion('1.0')
   .addBearerAuth(undefined, 'Authorization')
   .build();
