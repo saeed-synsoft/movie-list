@@ -11,7 +11,7 @@ export class AppController {
 
   @Get('')
   findAll() {
-    return 'application work '
+    return "Movie task API's working"
   }
 
   @Post('api/upload')
